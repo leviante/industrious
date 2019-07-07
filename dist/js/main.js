@@ -14,7 +14,7 @@ document.querySelector("body").addEventListener("click", e => {
   }
 });
 
-//when clicked close button, remove show class
+//when clicked exit button, remove show class
 const exitNav = document.querySelector(".nav-item i");
 exitNav.addEventListener("click", () => {
   menu.classList.remove("show");

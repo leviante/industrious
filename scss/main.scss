@@ -117,7 +117,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 50vh;
+  height: 600px;
 
   &:after {
     content: "";
@@ -187,6 +187,7 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  font-family: $title-font;
   color: darken(#898989, 10);
   padding-bottom: 120px;
 
@@ -206,19 +207,18 @@
   h1,
   h3 {
     position: relative;
-    font-family: $title-font;
     z-index: 2;
   }
 
   p {
     position: relative;
-    font-family: $body-font;
     z-index: 2;
   }
 
   h1 {
     margin: 60px 0px 30px 0px;
     font-size: 30px;
+    text-align: center;
   }
 
   .info-text {
@@ -296,7 +296,7 @@
     h1 {
       text-align: center;
       font-size: 30px;
-      margin: 80px 0px 30px 0px;
+      margin: 80px 10px 30px 10px;
     }
 
     p {
@@ -362,6 +362,7 @@
     position: relative;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     max-width: 1200px;
     width: 90%;
     margin-bottom: 80px;
@@ -370,9 +371,8 @@
     .testimonial {
       background-color: #fff;
       padding-bottom: 10px;
-
-      width: 25%;
       padding: 30px;
+      width: calc(33.333% - 50px);
 
       &:nth-child(2) {
         margin: 0px 50px;
@@ -434,6 +434,7 @@
 
   .footer-container {
     display: flex;
+    justify-content: center;
     max-width: 1200px;
     width: 90%;
     margin: 60px 0px 30px 0px;
@@ -508,6 +509,7 @@
   .copyright-text {
     color: #898989;
     font-size: 11px;
+    text-align: center;
     margin-bottom: 70px;
 
     a {
@@ -526,3 +528,5 @@
     }
   }
 }
+
+@import "mobile";
