@@ -321,3 +321,72 @@
           margin-left: 20px; }
           #testimonials .testimonials-container .testimonial .testimonial-footer .footer-text span {
             color: #c71a24; }
+
+#main-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #121212;
+  font-family: "Montserrat", sans-serif;
+  color: #fff; }
+  #main-footer .footer-container {
+    display: flex;
+    max-width: 1200px;
+    width: 90%;
+    margin: 60px 0px 30px 0px;
+    border-bottom: 1px solid #565656; }
+    #main-footer .footer-container .footer-info {
+      flex: 1; }
+      #main-footer .footer-container .footer-info p {
+        font-size: 15px;
+        color: #898989;
+        line-height: 1.8;
+        margin: 20px 0px; }
+    #main-footer .footer-container .footer-links {
+      flex: 1;
+      display: flex;
+      margin-left: 50px; }
+      #main-footer .footer-container .footer-links .links {
+        flex: 1;
+        display: flex;
+        flex-direction: column; }
+        #main-footer .footer-container .footer-links .links h4 {
+          font-size: 15px;
+          margin-bottom: 5px; }
+        #main-footer .footer-container .footer-links .links a {
+          color: #898989;
+          font-size: 14px;
+          text-decoration: none;
+          letter-spacing: -0.5px;
+          padding: 13px 0px;
+          transition: color 0.3s ease-out; }
+          #main-footer .footer-container .footer-links .links a:hover {
+            color: #c71a24;
+            transition: color 0.3s ease-out; }
+        #main-footer .footer-container .footer-links .links:nth-child(1) a {
+          display: block;
+          border-bottom: 1px solid #565656;
+          width: 85%; }
+          #main-footer .footer-container .footer-links .links:nth-child(1) a:last-child {
+            border: none; }
+        #main-footer .footer-container .footer-links .links:nth-child(2) {
+          margin-left: 30px; }
+          #main-footer .footer-container .footer-links .links:nth-child(2) a {
+            align-self: flex-start;
+            margin-bottom: 5px; }
+            #main-footer .footer-container .footer-links .links:nth-child(2) a i {
+              color: #fff;
+              width: 30px; }
+  #main-footer .copyright-text {
+    color: #898989;
+    font-size: 11px;
+    margin-bottom: 70px; }
+    #main-footer .copyright-text a {
+      text-decoration: none;
+      color: #898989;
+      transition: color 0.3s ease-out; }
+      #main-footer .copyright-text a:hover {
+        color: #c71a24;
+        transition: color 0.3s ease-out; }
+    #main-footer .copyright-text span {
+      color: #c9c9c9; }
