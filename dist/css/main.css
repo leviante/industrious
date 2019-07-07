@@ -127,6 +127,9 @@
   flex-direction: column;
   align-items: center;
   background: url(../img/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
   color: #707070;
   padding-bottom: 120px; }
   #info:after {
@@ -214,7 +217,107 @@
       margin: 80px 0px 30px 0px; }
     #banner .banner-text p {
       text-align: center;
+      font-size: 15px;
       line-height: 1.8;
       width: 90%;
       padding: 0px 30px;
       margin-bottom: 80px; }
+
+#testimonials {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  background: url(../img/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #707070; }
+  #testimonials:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1; }
+  #testimonials .testimonials-text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 50px;
+    width: 90%;
+    z-index: 2; }
+    #testimonials .testimonials-text h1 {
+      font-size: 35px;
+      margin-bottom: 30px; }
+    #testimonials .testimonials-text p {
+      font-size: 15px;
+      max-width: 800px;
+      width: 90%; }
+  #testimonials .testimonials-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    width: 90%;
+    margin-bottom: 80px;
+    z-index: 2; }
+    #testimonials .testimonials-container .testimonial {
+      background-color: #fff;
+      padding-bottom: 10px;
+      width: 25%;
+      padding: 30px; }
+      #testimonials .testimonials-container .testimonial:nth-child(2) {
+        margin: 0px 50px; }
+      #testimonials .testimonials-container .testimonial p {
+        font-family: "Montserrat", sans-serif;
+        font-style: italic;
+        font-size: 14px;
+        line-height: 1.5;
+        padding: 10px 5px 10px 30px;
+        border-left: 8px solid #bfbfbf; }
+      #testimonials .testimonials-container .testimonial:nth-child(1) .footer-img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        outline: none;
+        background: url("../img/pic01.jpg");
+        background-size: cover;
+        background-position: center; }
+      #testimonials .testimonials-container .testimonial:nth-child(2) .footer-img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        outline: none;
+        background: url("../img/pic02.jpg");
+        background-size: cover;
+        background-position: center; }
+      #testimonials .testimonials-container .testimonial:nth-child(3) .footer-img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        outline: none;
+        background: url("../img/pic03.jpg");
+        background-size: cover;
+        background-position: center; }
+      #testimonials .testimonials-container .testimonial .testimonial-footer {
+        display: flex;
+        align-items: center;
+        padding-top: 30px;
+        width: 100%; }
+        #testimonials .testimonials-container .testimonial .testimonial-footer .footer-text {
+          font-style: normal;
+          font-size: 11px;
+          border: none;
+          padding: 0;
+          margin-left: 20px; }
+          #testimonials .testimonials-container .testimonial .testimonial-footer .footer-text span {
+            color: #c71a24; }
