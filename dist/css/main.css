@@ -9,7 +9,8 @@
   align-items: center;
   background-color: #121212;
   padding: 0.75rem 1.5rem;
-  width: 100%; }
+  width: 100%;
+  z-index: 4; }
   #main-header #logo {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -68,3 +69,54 @@
       #main-header #navbar .navbar-toggler:hover {
         color: #fff;
         transition: color 0.3s ease-out; }
+
+#showcase {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh; }
+  #showcase:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(120deg, #8f1921, #000000);
+    opacity: 0.8;
+    z-index: 3; }
+  #showcase #myVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 2; }
+  #showcase .showcase-text {
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    width: 100%;
+    z-index: 4; }
+    #showcase .showcase-text h1 {
+      font-size: 50px;
+      color: #fff;
+      letter-spacing: -0.1px;
+      margin-bottom: 15px; }
+    #showcase .showcase-text p {
+      font-size: 20px;
+      line-height: 1.6;
+      color: #afafaf;
+      max-width: 800px;
+      width: 100%;
+      margin: 0px auto; }
+      #showcase .showcase-text p a {
+        color: #afafaf;
+        text-decoration: none;
+        transition: color 0.3s ease-out; }
+        #showcase .showcase-text p a:hover {
+          color: #fff;
+          transition: color 0.3s ease-out; }
