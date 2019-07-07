@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+#main-header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  background-color: #121212;
+  padding: 0.75rem 1.5rem;
+  width: 100%; }
+  #main-header #logo {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none; }
+  #main-header #navbar {
+    display: flex;
+    align-items: center;
+    margin-left: auto; }
+    #main-header #navbar #nav-items {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      top: 0;
+      right: -300px;
+      background-color: #121212;
+      height: 100vh;
+      width: 300px;
+      list-style: none; }
+      #main-header #navbar #nav-items .nav-item {
+        margin-left: 25px; }
+        #main-header #navbar #nav-items .nav-item .nav-link {
+          display: block;
+          font-family: "Roboto", sans-serif;
+          letter-spacing: -0.1px;
+          text-decoration: none;
+          color: #898989;
+          margin-right: 15px;
+          padding: 20px 0px;
+          transition: color 0.3s ease-in-out; }
+          #main-header #navbar #nav-items .nav-item .nav-link:hover {
+            color: #fff;
+            transition: color 0.3s ease-in-out; }
+        #main-header #navbar #nav-items .nav-item:nth-child(1) {
+          align-self: flex-end;
+          display: flex;
+          justify-content: flex-end;
+          color: #898989;
+          margin: 25px 15px 25px 0;
+          width: 30%;
+          cursor: pointer;
+          transition: color 0.3s ease-in-out; }
+          #main-header #navbar #nav-items .nav-item:nth-child(1) i {
+            font-size: 20px; }
+          #main-header #navbar #nav-items .nav-item:nth-child(1):hover {
+            color: #fff;
+            transition: color 0.3s ease-in-out; }
+        #main-header #navbar #nav-items .nav-item:nth-child(3) .nav-link {
+          border-top: 0.5px solid #565656;
+          border-bottom: 0.5px solid #565656; }
+    #main-header #navbar .navbar-toggler {
+      font-family: "Roboto", sans-serif;
+      color: #898989;
+      cursor: pointer;
+      transition: color 0.3s ease-out; }
+      #main-header #navbar .navbar-toggler:hover {
+        color: #fff;
+        transition: color 0.3s ease-out; }
