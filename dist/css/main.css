@@ -10,7 +10,7 @@
   background-color: #121212;
   padding: 0.75rem 1.5rem;
   width: 100%;
-  z-index: 4; }
+  z-index: 5; }
   #main-header #logo {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -29,7 +29,12 @@
       background-color: #121212;
       height: 100vh;
       width: 300px;
-      list-style: none; }
+      list-style: none;
+      z-index: 5;
+      transition: right 0.3s ease-out; }
+      #main-header #navbar #nav-items.show {
+        right: 0px;
+        transition: right 0.3s ease-out; }
       #main-header #navbar #nav-items .nav-item {
         margin-left: 25px; }
         #main-header #navbar #nav-items .nav-item .nav-link {
