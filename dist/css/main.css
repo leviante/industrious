@@ -1,3 +1,26 @@
+@charset "UTF-8";
+/*-----------------------------------
+  -----------------------------------
+  -----------------------------------
+
+    Project Name:  Industrious Redesign 
+    Project Start Date: 07.07.2019 (Evening)
+    Project End Date: 08.07.2019 (around 3AM)
+    Author: Berk Açıkgöz
+
+    TABLE OF CONTENTS:
+    
+    - Global Reset
+    - Header (Navbar)
+    - Section 1 / Showcase
+    - Section 2 / Main Info
+    - Section 3 / Banner
+    - Section 4 / Testimonials
+    - Section 5 / Main Footer
+
+-----------------------------------
+-----------------------------------
+-----------------------------------*/
 * {
   margin: 0;
   padding: 0;

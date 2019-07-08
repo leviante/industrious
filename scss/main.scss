@@ -1,5 +1,28 @@
 @import "_config";
 
+/*-----------------------------------
+  -----------------------------------
+  -----------------------------------
+
+    Project Name:  Industrious Redesign 
+    Project Start Date: 07.07.2019 (Evening)
+    Project End Date: 08.07.2019 (around 3AM)
+    Author: Berk Açıkgöz
+
+    TABLE OF CONTENTS:
+    
+    - Global Reset
+    - Header (Navbar)
+    - Section 1 / Showcase
+    - Section 2 / Main Info
+    - Section 3 / Banner
+    - Section 4 / Testimonials
+    - Section 5 / Main Footer
+
+-----------------------------------
+-----------------------------------
+-----------------------------------*/
+
 //Global Reset
 * {
   margin: 0;
@@ -7,7 +30,7 @@
   box-sizing: border-box;
 }
 
-//Header
+//-------------------------------------------------- Header -------------------------------------------------- //
 
 #main-header {
   position: fixed;
@@ -110,7 +133,7 @@
   }
 }
 
-//Section 1 - Showcase
+//-------------------------------------------------- Section 1 / Showcase -------------------------------------------------- //
 #showcase {
   position: relative;
   display: flex;
@@ -177,7 +200,7 @@
   }
 }
 
-// Section 2 - Main Info
+//-------------------------------------------------- Section 2 / Main Info -------------------------------------------------- //
 #info {
   position: relative;
   display: flex;
@@ -266,7 +289,7 @@
   }
 }
 
-//Section 3 - Banner
+//-------------------------------------------------- Section 3 / Banner -------------------------------------------------- //
 #banner {
   position: relative;
   background: url(../img/img-1.jpg);
@@ -310,7 +333,7 @@
   }
 }
 
-//Section 4 - Testimonials
+//-------------------------------------------------- Section 4 / Testimonials -------------------------------------------------- //
 #testimonials {
   position: relative;
   display: flex;
@@ -423,7 +446,7 @@
   }
 }
 
-// Section 5 - Main footer
+//-------------------------------------------------- Section 5 / Main Footer -------------------------------------------------- //
 #main-footer {
   display: flex;
   flex-direction: column;
